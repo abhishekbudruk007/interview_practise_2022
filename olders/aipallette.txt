@@ -1,0 +1,105 @@
+Rishikesh Agrawani7:08 PM
+{(): []}
+{[]: 3}
+{set(): ()}
+{[]: ()}
+{(): se()}
+Rishikesh Agrawani7:23 PM
+key: (), value [] is possible
+key: [], value 3 is not possible
+Rishikesh Agrawani7:31 PM
+key set(), value () is not possible
+Rishikesh Agrawani7:37 PM
++ Area: GREAT on code part
+Focus area: You need to know that dict doesn’t support mutable items as keys so never try to create it
+
+------
+
+In [5]: tups = [((), []), ([], 3), (set(), ()), ([], ()), ((), set())]
+
+In [6]: for tup in tups:
+   ...:     try:
+   ...:         {tup[0]: tup[1]}
+   ...:         print("key: %s, value: %s is possible" % (tup[0], tup[1]))
+   ...:     except:
+   ...:         print("key: %s, value: %s is not possible" % (tup[0], tup[
+Rishikesh Agrawani7:39 PM
+l = [(1, 3), (3, 5), (5, 7), (4, 8), ("A", "B")]
+"a:b->4:8->5:7->3:5->1:3"
+
+1 line statemwnt to get the string
+Rishikesh Agrawani8:00 PM
+Write a function which takes a dictionary of any depth and return a string (Should work for below kind of dictionaries).
+
+I/P:
+	{
+		'Last': {
+			'Year': {
+				'Was': {
+					'Quite': {
+						'Engaged With': 'Development.'
+					}
+				}
+			}
+		}
+	}
+
+O/P:
+Last Year Was Quite Engaged With Development.
+
+===
+
+I/P:
+	{
+		'I': {
+			'Am': {
+				'Fine': {
+					'With': {
+						'Your': {
+							'Performance': ['Selvan!', 'How', 'Are', 'You?']
+						}
+					}
+				}
+			}
+		}
+	}
+
+O/P:
+I Am Fine With Your Perform
+Rishikesh Agrawani8:01 PM
+I Am Fine With Your Performance Selvan! How Are You?
+8:17 PM.
+Rishikesh Agrawani8:24 PM
+JSON ->
+JWT's usage
+Rishikesh Agrawani8:27 PM
+Middleware
+Diff ORM Queries examples
+You8:29 PM
+USer.objects.all()
+User.object.filter(id = 100)
+You8:30 PM
+User.objects.get(id= 100)
+Rishikesh Agrawani8:32 PM
+[{"username": 'A'}, {'username': 'B'}, ......]
+Rishikesh Agrawani8:33 PM
+User.objects.create()
+Rishikesh Agrawani8:34 PM
+bulk_create
+bulk_update
+decorator() ->
+You8:35 PM
+@decorator
+def add():
+Rishikesh Agrawani8:36 PM
+diff keywords of excep. handling
+else
+Rishikesh Agrawani8:38 PM
+Django commands
+runserver
+python manage.py get_all_users
+Rishikesh Agrawani8:42 PM
+generator
+Rishikesh Agrawani8:45 PM
+Hersheys
+Interview Scheduled |Backend Developer |AI Palette | Bangalore (Abhishek )
